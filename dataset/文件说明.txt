@@ -1,0 +1,8 @@
+qs_raw.txt 原始问题集，未经任何处理
+qs_cut.json 原始问题经分词处理
+stan_sim_distinct.txt 该文件已经由sent2vec相似度算法初步分类，把相似的问题归于一类，但是精度不高。还需要人工从该文件进一步把相似问题找出来
+qs_sim.txt 手工从stan_sim_distinct.txt中进一步找出的相似问题
+sim_qs_cut.json 每个问题为key，与其相似的问题为value
+dataset.csv 标注了相似性的问题对，最终数据，可以作为训练数据
+w2v_model.bin 用gensim在农业语料库上训练出来的词向量模型
+agri_words.txt 搜狗词库导出的农业词汇，经过了筛选
