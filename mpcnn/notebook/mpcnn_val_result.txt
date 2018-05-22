@@ -1,0 +1,2 @@
+{'score': array([ 0.41020492], dtype=float32), 'dropout': 0.1}
+{'dropout': 0.2, 'score': array([ 0.12939408], dtype=float32)}
