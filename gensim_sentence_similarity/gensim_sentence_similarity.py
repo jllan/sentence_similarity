@@ -1,3 +1,5 @@
+# 基于gensim的n_similarity函数实现句子相似度计算
+
 import pandas as pd
 import numpy as np
 from gensim.models import Word2Vec
